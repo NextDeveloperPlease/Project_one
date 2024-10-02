@@ -1,0 +1,18 @@
+CS 334 - Final same project adjusted
+I have to start thinking about a final for my other AI class.
+> Do you have an idea what the projects will be? And if so,
+> could I utilize the fact that I have two classes discussing the same
+> thing to turn in one assignment adjusted to fit the parameters of the class?
+
+Gradient Inversion Attacks:
+This attack utilizes the gradients of the model to essentially change the inputs
+rather than adjust the weights of the model to get the same output for an input.
+> This recovers a random input value, why would it be useful?
+I can't gaurantee it will return a value that is useful. (Starts with a random input
+and adjusts it until it fits the output)
+
+Transferability attacks:
+Inputs found to fool one model can be used to fool another model with different
+training and weights.
+> Do we have any idea why this works?
+
